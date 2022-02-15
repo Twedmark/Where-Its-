@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: slategray;
+}
+
+#container {
+  margin: auto;
+  width: 375px;
+  height: 667px;
+  position: relative;
+  text-align: center;
+  background-color: #F39440;
+}
+
+h1 {
+  top: 25%;
+  position: absolute;
+  width: 100%;
+  font-family: Sansita One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+h2 {
+  top: 28%;
+  position: absolute;
+  width: 100%;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.3em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#logo {
+  position: absolute;
+  top: 18.5%;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  position: absolute;
+  width: 84%;
+  height: 9%;
+  margin-left: 8%;
+  font-family: Fira Mono;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.3em;
+  color: #090911;
+  border: 2px solid #231F42;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background-color: #F39440;
+}
+
+#username {
+  top: 48%;
+}
+
+#password {
+  top: 64%;
+}
+
+#login-button {
+  bottom: 5%;
+  position: absolute;
+  width: 84%;
+  height: 9%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Fira Sans;
+  font-weight: 600;
+  font-size: 22px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #231F42;
+  border-radius: 0px 0px 3px 3px;
+}
+input::placeholder {
+  color: #090911;
+}

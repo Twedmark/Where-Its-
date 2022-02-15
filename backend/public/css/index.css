@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: slategray;
+}
+
+#container {
+  margin: auto;
+  width: 375px;
+  height: 667px;
+  position: relative;
+  text-align: center;
+  background-color: #231F42;
+}
+
+h1 {
+  position: relative;
+  top: 2%;
+  font-family: Sansita One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  color: #F56B9A;
+}
+
+#conserts-div {
+  height: 77%;
+  width: 90%;
+  margin-left: 5%;
+  position: absolute;
+  bottom: 1%;
+}
+
+.eventDiv {
+  width: 100%;
+  height: 15%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.eventDiv:hover {
+  cursor: pointer;
+  background-color: rgb(35, 31, 81);
+}
+
+.divLeft {
+  position: relative;
+  width: 20%;
+  height: 95%;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.date {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.divRight {
+  position: relative;
+  width: 69%;
+  height: 95%;
+  justify-content: space-between;
+}
+
+.title {
+  position: relative;
+  margin: auto;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0px #F56B9A;
+}
+
+.location {
+  position: relative;
+  bottom: 2px;
+  margin: auto;
+  margin-top: 5px;
+  font-family: Fira Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.divRightBot {
+  position: absolute;
+  bottom: 1%;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.time {
+  position: relative;
+  margin: 0;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #D0D0D0;
+}
+
+.price {
+  position: relative;
+  margin: 0;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: #37AEAB;
+}
+
+#Login-btn {
+  position: absolute;
+  color: LightCoral;
+  border: 2px solid rgba(176, 196, 222, 0.5);
+  padding: 1px;
+  width: 40px;
+  height: 30px;
+  right: 10px;
+  top: 10px;
+  background-color: transparent;
+  transition-duration: 0.4s;
+}
+
+#Login-btn:hover {
+  background-color: rgba(176, 196, 222, 0.2);
+}
